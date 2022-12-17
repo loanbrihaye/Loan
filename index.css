@@ -1,0 +1,248 @@
+   /* start of header */
+Body {
+    text-align: center;
+}
+
+header{
+    background-position: 590px 25px;
+    background-size: 20%;
+    background-color: rgba(65, 105, 225, 0.525);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 150px;
+    width: 1920px;
+    display: flex;
+    position: fixed;
+}
+
+#logo_header {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 10px;
+    right: 260px;
+    justify-content: space-between;
+
+ 
+}
+
+#logo_storeo {
+
+    position: fixed;
+    top: 10px;
+    right: 600px;
+    justify-content: space-between;
+
+ 
+}
+
+img {
+    margin: 10px;
+  }
+header ul{
+    display: flex;
+
+}
+
+header li {
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+header li a {
+color: rgb(255, 255, 255);
+padding: 15px;
+flex-direction: row;
+}
+
+header ul #Bouton1 a {
+    background-color: rgba(0, 0, 255, 0.45);
+    font-family:FilsonProMedium;
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 60px;
+    height: 20px;
+    width : 150px;
+    float: left;
+    border-left: 5px solid rgb(255, 255, 255);
+    border-top: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+header ul #Bouton2 a {
+    background-color: rgba(0, 0, 255, 0.45);
+    font-family:FilsonProHeavy;
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 60px;
+    height: 20px;
+    width : 150px;
+    float: left;
+    border-left: 5px solid rgb(255, 255, 255);
+    border-top: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+header ul #Bouton3 a {
+    background-color: rgba(0, 0, 255, 0.45);
+    font-family:FilsonProHeavy;
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 60px;
+    height: 20px;
+    width : 150px;
+    float: left;
+    border-left: 5px solid rgb(255, 255, 255);
+    border-top: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    margin-top: 90px;
+    margin-left: 300px;
+}
+
+header ul #Bouton4 a {
+    background-color: rgba(0, 0, 255, 0.45);
+    font-family:FilsonProHeavy;
+    position: relative;
+    top: -25px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 60px;
+    height: 20px;
+    width : 150px;
+    float: left;
+    border-left: 5px solid rgb(255, 255, 255);
+    border-top: 5px solid rgb(255, 255, 255);
+    border-right: 5px solid rgb(255, 255, 255);
+    border-bottom: 5px solid rgb(255, 255, 255);
+    margin-top: 90px;
+    margin-left: 20px;
+}
+   /* end of header */
+   /* Start of form */
+body {
+    background-image: url(/Users/maxpi/Desktop/Website/Images/Background_retro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+      }
+  
+  .container {
+    position: relative;
+  }
+
+  form {
+    background: rgba(58, 8, 242, 0.3);
+    padding: 3rem;
+    height: 320px;
+    width: 750px;
+    border-radius: 60px;
+    border-left: 10px solid rgb(255, 255, 255);
+    border-top: 10px solid rgb(255, 255, 255);
+    border-right: 10px solid rgb(255, 255, 255);
+    border-bottom: 10px solid rgb(255, 255, 255);
+    text-align: center;
+    left: 670px;
+    top: 565px;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+  }
+
+  p {
+    color: rgb(255, 255, 255);
+    font-weight: 50;
+    font-family: aquawax;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+    margin-top: 8px;
+
+  }
+
+  input {
+    background: white;
+    border: none;
+    padding: 6px;
+    width: 400px;
+    border-radius: 50px;
+    text-align: center;
+
+      }
+
+select {
+
+    background: white;
+    border: none;
+    padding: 6px;
+    width: 400px;
+    border-radius: 50px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  #back {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    top: 280px;
+    left: 60px;
+    position: absolute;
+
+ 
+}
+
+#forward{
+    display: flex;
+    width: 70px;
+    height: 70px;
+    top: 280px;
+    right: 60px;
+    position: absolute;
+}
+
+   /* end of form */
+ 
+footer{
+    background-size: 20%;
+    background-color: rgba(65, 105, 225, 0.525);
+    top: 660px;
+    height: 150px;
+    width: 1920px;
+    display: flex;
+    position: fixed;
+   }
+
+#text1 p{
+    font-family: FilsonProHeavy;
+    float: left;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 10px;
+    font-size: 12px;
+    position: relative;
+   }
+
+   #text2 p{
+    font-family: FilsonProHeavy;
+    float: right;
+    text-align: right;
+    margin-left: 500px;
+    margin-top: 10px;
+    font-size: 12px;
+
+   }
